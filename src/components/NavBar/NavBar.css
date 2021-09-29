@@ -1,0 +1,10 @@
+.NavBar-Container{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.lista {
+    text-decoration: none;
+    list-style-type: none; 
+}

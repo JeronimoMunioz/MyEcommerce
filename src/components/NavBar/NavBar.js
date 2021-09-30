@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar, Nav, NavDropdown, Container} from "react-bootstrap"
-import Carrito from "../CardWidget/CardWidget";
+import CardWidget from "../CardWidget/CardWidget";
 
 
 function BarraBt(){
@@ -23,7 +23,7 @@ function BarraBt(){
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>
-    <Carrito/>
+    <CardWidget/>
     
   </Container>
 </Navbar>

@@ -2,7 +2,7 @@
 import './App.css';
 import Navbar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemlistContainer/ItemListContainer';
-
+import ItemCount from './components/ItemCount/ItemCount';
 
 
 function App() {
@@ -12,7 +12,8 @@ function App() {
     <div className="App">
       
       <Navbar/>
-      <ItemListContainer title='Welcome to my page'/>
+      <ItemListContainer title='Welcome to my page' />
+      <ItemCount stock="7" initial={1}/>
     </div>
   );
 }

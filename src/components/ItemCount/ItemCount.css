@@ -1,0 +1,21 @@
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;        
+    background: red;
+    margin: 30px;
+    border-radius: 3px;
+
+}
+
+.btn:hover{
+    background: white;
+    border:  2px solid red;
+}
+
+.p{
+    margin: 40px;
+    color: rgb(47, 0, 255);
+}
+
+

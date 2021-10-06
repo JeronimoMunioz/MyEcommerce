@@ -1,7 +1,7 @@
 
+
 import react from 'react';
 import './ItemCount.css'
-
 
 const ItemCount = ({stock,initial}) => {
     const [contador,setContador] = react.useState(parseInt(initial));
@@ -14,14 +14,15 @@ const ItemCount = ({stock,initial}) => {
 
     const desIncrementar = () =>{
         if (contador > 0){
-            setContador(contador - 1)
+            setContador(contador - 1 )
         }
     };
     return(
-        <div>
-            <button className='btn' onClick={desIncrementar} >-</button>
-            <p className="p">{contador} UNIDADES, PUEDEN SER TUYAS!</p>
-            <button className='btn' onClick={incrementar} > +</button>
+        <div className="btn-sec">
+            <button className='btn-dec btn-hover'onClick={desIncrementar} >-</button>
+            <p className="p ">{contador} UNIDADES, PUEDEN SER TUYAS!</p>
+            <button className='btn btn-hover'onClick={incrementar} > +</button>
+            <button className="btn-cart btn-hover "> Agregar al carrito</button>
         </div>
     )
 

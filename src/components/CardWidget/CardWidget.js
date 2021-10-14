@@ -1,12 +1,12 @@
-import Icono from '../CardWidget/media/carrito.jpg'
+import './CardWidget.css'
+import ShoppingCartIcon  from '@mui/icons-material/ShoppingCart';
 
 
-function CardWidget(){
-    return(
-        
-           <img src={Icono} height="50px" widht="50px" alt=""/>
-        
-        )
+
+function CardWidget() {
+
+  return <ShoppingCartIcon className="carrito"/>;
 }
+
 
 export default CardWidget;
